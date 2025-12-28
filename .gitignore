@@ -1,0 +1,102 @@
+# Terraform state files
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+
+# Terraform lock files
+.terraform.lock.hcl
+
+# Terraform directories
+.terraform/
+.terraform-version
+
+# Environment files
+.env
+.env.local
+.env.*.local
+*.env
+
+# SSH keys and certificates
+*.pem
+*.pub
+*.key
+*.cer
+*.crt
+id_rsa*
+id_ed25519*
+id_dsa*
+id_ecdsa*
+known_hosts
+authorized_keys
+
+# AWS credentials and configs
+.aws/
+credentials
+config
+~/.aws/
+
+# GCP credentials
+*.json
+google_credentials.json
+service-account-key.json
+
+# Sensitive configuration files
+secrets.yml
+secrets.yaml
+secrets.tf
+.secrets
+secrets/
+*.secret
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.classpath
+.c9/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Build and dependency directories
+dist/
+build/
+*.egg-info/
+__pycache__/
+.Python
+*.pyc
+*.pyo
+node_modules/
+
+# Logs
+*.log
+logs/
+*.out
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
+
+# CI/CD
+.github/workflows/secrets.yml
+
+# Local development
+local/
+.local/
+
+# Backup files
+*.backup
+*.bckp
